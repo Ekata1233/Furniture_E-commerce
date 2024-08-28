@@ -12,7 +12,7 @@ function Checkout() {
         <Row className='bg-light'>1</Row>
         <Row className=''>2</Row>
         </Col>
-
+      <div></div>
       </Row>
     </Container>
     </div>
