@@ -1,0 +1,110 @@
+{
+  "chairs": [
+    {
+      "id": "1",
+      "image": "./product-3.png",
+      "name": "Nordiac Chair",
+      "price": 50,
+      "stock": 30,
+      "qty": 1
+    },
+    {
+      "id": "2",
+      "image": "./product-1.png",
+      "name": "Nordiac Chair",
+      "price": 50,
+      "stock": 40,
+      "qty": 1
+    },
+    {
+      "id": "3",
+      "image": "./product-2.png",
+      "name": "Nordiac Chair",
+      "price": 50,
+      "stock": 50,
+      "qty": 1
+    },
+    {
+      "id": "4",
+      "image": "./product-3.png",
+      "name": "Nordiac Chair",
+      "price": 50,
+      "stock": 50,
+      "qty": 1
+    },
+    {
+      "id": "5",
+      "image": "./product-3.png",
+      "name": "Nordiac Chair",
+      "price": 50,
+      "stock": 60,
+      "qty": 1
+    },
+    {
+      "id": "6",
+      "image": "./product-1.png",
+      "name": "Nordiac Chair",
+      "price": 50,
+      "stock": 70,
+      "qty": 1
+    },
+    {
+      "id": "7",
+      "image": "./product-2.png",
+      "name": "Nordiac Chair",
+      "price": 50,
+      "stock": 30,
+      "qty": 1
+    },
+    {
+      "id": "8",
+      "image": "./product-3.png",
+      "name": "Nordiac Chair",
+      "price": 50,
+      "stock": 50,
+      "qty": 1
+    }
+  ],
+  "cart": [
+    {
+      "id": "7",
+      "image": "./product-2.png",
+      "name": "Nordiac Chair",
+      "price": 50,
+      "stock": 30,
+      "qty": 1
+    },
+    {
+      "id": "6",
+      "image": "./product-1.png",
+      "name": "Nordiac Chair",
+      "price": 50,
+      "stock": 70,
+      "qty": 1
+    },
+    {
+      "id": "5",
+      "image": "./product-3.png",
+      "name": "Nordiac Chair",
+      "price": 50,
+      "stock": 60,
+      "qty": 1
+    },
+    {
+      "id": "3",
+      "image": "./product-2.png",
+      "name": "Nordiac Chair",
+      "price": 50,
+      "stock": 50,
+      "qty": 1
+    },
+    {
+      "id": "2",
+      "image": "./product-1.png",
+      "name": "Nordiac Chair",
+      "price": 50,
+      "stock": 40,
+      "qty": 1
+    }
+  ]
+}
