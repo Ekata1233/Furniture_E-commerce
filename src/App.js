@@ -13,6 +13,7 @@ import Contact from './components/Contact'
 import User from './components/User'
 import Cart from './components/Cart'
 import Checkout from './components/Checkout';
+import Signup from './components/Signup';
 
 
 
@@ -35,6 +36,7 @@ function App() {
         <Route path='/User' element={<User/>}/>
         <Route path='/Cart' element={<Cart/>}/>
         <Route path='/Checkout' element={<Checkout/>}/>
+        <Route path='Signup' element={<Signup/>}/>
 
 
 

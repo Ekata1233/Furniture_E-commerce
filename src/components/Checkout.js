@@ -7,7 +7,21 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import QRcode from './QRcode';
+import Credit_card from './Credit_card';
 function Checkout() {
+
+  const [selectedOption, setSelectedOption] = useState("QR");
+
+  const renderPaymentOption = () => {
+    switch (selectedOption) {
+      case "QR":
+        return <QRcode />;
+      case "Card":
+        return <Credit_card />;
+      default:
+        return null;
+    }
+  };
   // const handleClose = () =>setShow(false);
   // const handleshow = () =>setShow(true);
   const [show, setShow] = useState(false);
@@ -132,7 +146,21 @@ function Checkout() {
          </div>
           </Col>
          </Row> */}
-         <QRcode/>
+         {/* <QRcode/> */}
+         {renderPaymentOption()}
+         
+         <h5 className="py-3 ps-2">UPI , Cards & More</h5>
+                  <Row className=" p-3 border border-secondary border-opacity-25">
+                    <div className="p-3 bg-light border border-secondary border-opacity-25" onClick={() => setSelectedOption("QR")}>
+                      <a href="">UPI / QR</a>
+                    </div>
+                    <div className="p-3 bg-light border border-secondary border-opacity-25" onClick={() => setSelectedOption("Card")}>
+                    <a href="">Cards</a>
+                    </div>
+                    <div className="p-3 bg-light border border-secondary border-opacity-25">
+                    <a href="">Cash on Delivery</a>
+                    </div>
+         </Row>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
