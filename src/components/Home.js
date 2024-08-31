@@ -17,6 +17,8 @@ function Home() {
       <Modern/>
       <Craft/>
       <Why/>
+
+      
       <Interior/>
     <Testimonials/>
 {/* <div className='bg-body-tertiary py-5 px-5'>
