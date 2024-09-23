@@ -86,4 +86,18 @@ a:link,a:visited
   height: 200px;
 } */
 
+.yellowline{
+  height: 5px;
+    background-color:#c6d800;
+    margin-top: 35px;
+    position: absolute;
+    transition: width 1s ;
 
+    width: 20px;
+    /* margin-left: -30px; */
+    transition-timing-function: ease;
+}
+.yellow:hover .yellowline{
+  display: block;
+  width: 350px;
+}
